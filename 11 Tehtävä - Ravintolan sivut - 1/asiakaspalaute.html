@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fi">
+	<head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="ravintola2css.css">
+	</head>
+	<body>
+        <div class="otsikko">
+            <h1>Ravintola Lapintaika</h1>
+            <h2>Asiakaspalaute lomake</h2>
+            <p>Palautteenne on meille tärkeää!</p> 
+        </div>
+        <div class="formi">
+                <form>
+                        <label for="pvma">Pvm jolloin ruokailit ravintolassa:</label>
+                        <input type="date" id="pvma" name="trip-start" min="2018-01-01" max="2022-12-31"><br><br>
+                        
+                        <label for="aika">Kuinka kauan odotit ruokaa (minuutteina)?:</label>
+                        <input type="number" id="aika" name="aika" min="1" max="600"><br>
+                        
+                        <!--Radio start-->
+                        <h5>Vastaa seuraaviin väitteisiin. 1=En ollenkaan samaa mieltä, 5=Täysin samaa mieltä.</h5>
+
+                        <p>Ruoan maku oli sopiva.</p>
+                        <fieldset id="maku">
+                                <input type="radio" id="contactChoice1" name="contact"/>
+                                <label for="contactChoice1">1</label>
+                    
+                                <input type="radio" id="contactChoice2" name="contact"/>
+                                <label for="contactChoice2">2</label>
+                    
+                                <input type="radio" id="contactChoice3" name="contact"/>
+                                <label for="contactChoice3">3</label>
+
+                                <input type="radio" id="contactChoice4" name="contact"/>
+                                <label for="contactChoice4">4</label>
+                    
+                                <input type="radio" id="contactChoice5" name="contact"/>
+                                <label for="contactChoice5">5</label>
+                        </fieldset>
+
+                        <p>Ruoan lämpötila oli sopiva.</p>
+                        <fieldset id="lampo">
+                                <input type="radio" id="contactChoice1.2" name="contact2"/>
+                                <label for="contactChoice1.2">1</label>
+                    
+                                <input type="radio" id="contactChoice2.2" name="contact2"/>
+                                <label for="contactChoice2.2">2</label>
+                    
+                                <input type="radio" id="contactChoice3.2" name="contact2"/>
+                                <label for="contactChoice3.2">3</label>
+
+                                <input type="radio" id="contactChoice4.2" name="contact2"/>
+                                <label for="contactChoice4.2">4</label>
+                    
+                                <input type="radio" id="contactChoice5.2" name="contact2"/>
+                                <label for="contactChoice5.2">5</label>
+                        </fieldset>
+                        <p>Ruoan ulkonäkö oli sopiva.</p>
+                        <fieldset id="ulko">
+                                <input type="radio" id="contactChoice1.3" name="contact3"/>
+                                <label for="contactChoice1.3">1</label>
+                    
+                                <input type="radio" id="contactChoice2.3" name="contact3"/>
+                                <label for="contactChoice2.3">2</label>
+                    
+                                <input type="radio" id="contactChoice3.3" name="contact3"/>
+                                <label for="contactChoice3.3">3</label>
+
+                                <input type="radio" id="contactChoice4.3" name="contact3"/>
+                                <label for="contactChoice4.3">4</label>
+                    
+                                <input type="radio" id="contactChoice5.3" name="contact3"/>
+                                <label for="contactChoice5.3">5</label>
+                        </fieldset>
+
+                        <p>Ruoan hinta oli sopiva</p>
+                        <fieldset id="hinta">
+                                <input type="radio" id="contactChoice1.4" name="contact4"/>
+                                <label for="contactChoice1.4">1</label>
+                    
+                                <input type="radio" id="contactChoice2.4" name="contact4"/>
+                                <label for="contactChoice2.4">2</label>
+                    
+                                <input type="radio" id="contactChoice3.4" name="contact4"/>
+                                <label for="contactChoice3.4">3</label>
+
+                                <input type="radio" id="contactChoice4.4" name="contact4"/>
+                                <label for="contactChoice4.4">4</label>
+                    
+                                <input type="radio" id="contactChoice5.4" name="contact4"/>
+                                <label for="contactChoice5.4">5</label>
+                        </fieldset>
+
+                        <p>Ravintolan palvelu oli sopiva.</p>
+                        <fieldset id="palvelu">
+                                <input type="radio" id="contactChoice1.5" name="contact5"/>
+                                <label for="contactChoice1.5">1</label>
+                    
+                                <input type="radio" id="contactChoice2.5" name="contact5"/>
+                                <label for="contactChoice2.5">2</label>
+                    
+                                <input type="radio" id="contactChoice3.5" name="contact5"/>
+                                <label for="contactChoice3.5">3</label>
+
+                                <input type="radio" id="contactChoice4.5" name="contact5"/>
+                                <label for="contactChoice4.5">4</label>
+                    
+                                <input type="radio" id="contactChoice5.5" name="contact5"/>
+                                <label for="contactChoice5.5">5</label>
+                        </fieldset>
+
+                        <!--radio end-->
+                        <br><br>
+                        <label for="palaute">Vapaa palaute:</label>
+                        <input type="text" id="palaute" name="palaute" ><br><br>
+
+                        <label for="aspalaute">Jos haluat, että otamme yhteyttä sinuun niin jätä yhteystietosi:</label>
+                        <input type="text" id="aspalaute" name="aspalaute" ><br><br>
+                        
+                        <input type="submit">
+
+                </form>
+        </div>
+
+        <div class="kontakt">
+            <h3>Yhteystiedot ja aukioloajat:</h3>
+            <p>Ravintola Lapintaika, Ravintolakatu 2, 98765 LAPINMAA</p>
+            <p>Puh. (012) 345 6789 Sähköposti: varaukset@jokuposti.net</p>
+            <p>aukioloajat: ma - pe, 10:30 - 15:00</p>
+        </div>
+
+	</body>
+</html>
